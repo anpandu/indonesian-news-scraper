@@ -47,6 +47,7 @@ describe('Kompas', function () {
   //   return Promise.resolve()
   //     .then(Kompas.scrap)
   //     .then(function (result) {
+  //       console.log(result)
   //       result.forEach(function (item) {
   //         assert(true, item.hasOwnProperty("url"))
   //         assert(true, item.hasOwnProperty("title"))

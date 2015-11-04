@@ -34,6 +34,11 @@ describe('TempoEnglish', function () {
         assert(true, result.hasOwnProperty("date"))
         assert(true, result.hasOwnProperty("img"))
         assert(true, result.hasOwnProperty("summary"))
+        assert(true, result['url'] == 'http://en.tempo.co/read/news/2015/11/04/055715684,uk.html/Indonesia-can-Learn-from-Finlands-Peatland-Fire-Case-Pratikno')
+        assert(true, result['title'] == 'Indonesia can Learn from Finland`s Peatland Fire Case: Pratikno')
+        assert(true, result['date'] == 'Wednesday 04 November, 2015   07:28 ')
+        assert(true, result['img'] == 'http://cdn.tmpo.co/data/2015/09/15/id_437155/437155_620.jpg')
+        assert(true, result['summary'] == 'Indonesia could learn from Finlands experience in handling peatlands as they cover about one-third of Finland`s territory.')
       })
   })
 
