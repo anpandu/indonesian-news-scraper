@@ -1,10 +1,13 @@
 'use strict';
 
+var _ = require('lodash');
 var assert = require('assert');
-var newsScrapper = require('../lib');
+var index = require('../lib');
 
 describe('news-scrapper', function () {
-  it('should have unit test!', function () {
-    assert(false, 'we expected this package author to add actual unit tests.');
-  });
-});
+
+  it('should contains TempoEnglish scrapper', function () {
+    assert(!_.isUndefined(index.TempoEnglish), 'TempoEnglish scrapper not found')
+  })
+
+})
