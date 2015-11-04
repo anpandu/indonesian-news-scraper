@@ -14,6 +14,12 @@
   ],
   "main": "lib/index.js",
   "keywords": [],
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "cheerio": "^0.19.0",
+    "lodash": "^3.10.1",
+    "request-promise": "^1.0.2"
+  },
   "devDependencies": {
     "gulp": "^3.6.0",
     "gulp-eslint": "^1.0.0",
@@ -25,7 +31,7 @@
   },
   "scripts": {
     "prepublish": "gulp prepublish",
-    "test": "gulp"
+    "test": "mocha --no-timeouts --recursive"
   },
   "license": "MIT"
 }
