@@ -10,4 +10,8 @@ describe('news-scrapper', function () {
     assert(!_.isUndefined(index.TempoEnglish), 'TempoEnglish scrapper not found')
   })
 
+  it('should contains Kompas scrapper', function () {
+    assert(!_.isUndefined(index.Kompas), 'Kompas scrapper not found')
+  })
+
 })
