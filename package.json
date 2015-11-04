@@ -31,7 +31,7 @@
   },
   "scripts": {
     "prepublish": "gulp prepublish",
-    "test": "gulp"
+    "test": "mocha --no-timeouts --recursive"
   },
   "license": "MIT"
 }
