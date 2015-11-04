@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.9.1
+3 info using node@v0.10.24
+4 verbose readDependencies loading dependencies from /media/ananta/Master/Area51/nodejs/news-scrapper/package.json
+5 warn package.json news-scrapper@0.0.0 homepage field must start with a protocol.
+6 verbose install where, deps [ '/media/ananta/Master/Area51/nodejs/news-scrapper',
+6 verbose install   [ 'gulp',
+6 verbose install     'gulp-eslint',
+6 verbose install     'gulp-exclude-gitignore',
+6 verbose install     'gulp-istanbul',
+6 verbose install     'gulp-mocha',
+6 verbose install     'gulp-plumber',
+6 verbose install     'gulp-nsp' ] ]
+7 verbose install where, peers [ '/media/ananta/Master/Area51/nodejs/news-scrapper', [] ]
+8 verbose installManyTop reading for lifecycle /media/ananta/Master/Area51/nodejs/news-scrapper/package.json
+9 info preinstall news-scrapper@0.0.0
+10 verbose installManyTop reading scoped package data from /media/ananta/Master/Area51/nodejs/news-scrapper/node_modules/gulp/package.json
+11 verbose installManyTop reading scoped package data from /media/ananta/Master/Area51/nodejs/news-scrapper/node_modules/gulp-eslint/package.json
+12 verbose installManyTop reading scoped package data from /media/ananta/Master/Area51/nodejs/news-scrapper/node_modules/gulp-exclude-gitignore/package.json
+13 verbose installManyTop reading scoped package data from /media/ananta/Master/Area51/nodejs/news-scrapper/node_modules/gulp-istanbul/package.json
+14 verbose installManyTop reading scoped package data from /media/ananta/Master/Area51/nodejs/news-scrapper/node_modules/gulp-mocha/package.json
+15 verbose installManyTop reading scoped package data from /media/ananta/Master/Area51/nodejs/news-scrapper/node_modules/gulp-nsp/package.json
+16 verbose installManyTop reading scoped package data from /media/ananta/Master/Area51/nodejs/news-scrapper/node_modules/gulp-plumber/package.json
+17 verbose readDependencies loading dependencies from /media/ananta/Master/Area51/nodejs/news-scrapper/package.json
+18 verbose targetResolver reading package data from /media/ananta/Master/Area51/nodejs/news-scrapper/node_modules/gulp/package.json
+19 verbose targetResolver reading package data from /media/ananta/Master/Area51/nodejs/news-scrapper/node_modules/gulp-eslint/package.json
+20 verbose targetResolver reading package data from /media/ananta/Master/Area51/nodejs/news-scrapper/node_modules/gulp-exclude-gitignore/package.json
+21 verbose targetResolver reading package data from /media/ananta/Master/Area51/nodejs/news-scrapper/node_modules/gulp-istanbul/package.json
+22 verbose targetResolver reading package data from /media/ananta/Master/Area51/nodejs/news-scrapper/node_modules/gulp-mocha/package.json
+23 verbose targetResolver reading package data from /media/ananta/Master/Area51/nodejs/news-scrapper/node_modules/gulp-nsp/package.json
+24 verbose targetResolver reading package data from /media/ananta/Master/Area51/nodejs/news-scrapper/node_modules/gulp-plumber/package.json
+25 verbose targetResolver reading package data from /media/ananta/Master/Area51/nodejs/news-scrapper/node_modules/.bin/gulp/package.json
+26 verbose already installed skipping gulp-plumber@^1.0.0 /media/ananta/Master/Area51/nodejs/news-scrapper
+27 verbose already installed skipping gulp-nsp@^0.4.5 /media/ananta/Master/Area51/nodejs/news-scrapper
+28 verbose already installed skipping gulp@^3.6.0 /media/ananta/Master/Area51/nodejs/news-scrapper
+29 verbose already installed skipping gulp-eslint@^1.0.0 /media/ananta/Master/Area51/nodejs/news-scrapper
+30 verbose already installed skipping gulp-exclude-gitignore@^1.0.0 /media/ananta/Master/Area51/nodejs/news-scrapper
+31 verbose already installed skipping gulp-istanbul@^0.9.0 /media/ananta/Master/Area51/nodejs/news-scrapper
+32 verbose already installed skipping gulp-mocha@^2.0.0 /media/ananta/Master/Area51/nodejs/news-scrapper
+33 silly install resolved []
+34 info build /media/ananta/Master/Area51/nodejs/news-scrapper
+35 info linkStuff news-scrapper@0.0.0
+36 silly linkStuff news-scrapper@0.0.0 has /media/ananta/Master/Area51/nodejs as its parent node_modules
+37 verbose linkBins news-scrapper@0.0.0
+38 verbose linkMans news-scrapper@0.0.0
+39 verbose rebuildBundles news-scrapper@0.0.0
+40 verbose rebuildBundles [ '.bin',
+40 verbose rebuildBundles   'gulp',
+40 verbose rebuildBundles   'gulp-eslint',
+40 verbose rebuildBundles   'gulp-exclude-gitignore',
+40 verbose rebuildBundles   'gulp-istanbul',
+40 verbose rebuildBundles   'gulp-mocha',
+40 verbose rebuildBundles   'gulp-nsp',
+40 verbose rebuildBundles   'gulp-plumber' ]
+41 info install news-scrapper@0.0.0
+42 info postinstall news-scrapper@0.0.0
+43 info prepublish news-scrapper@0.0.0
+44 verbose unsafe-perm in lifecycle true
+45 info news-scrapper@0.0.0 Failed to exec prepublish script
+46 verbose stack Error: news-scrapper@0.0.0 prepublish: `gulp prepublish`
+46 verbose stack Exit status 8
+46 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+46 verbose stack     at EventEmitter.emit (events.js:98:17)
+46 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+46 verbose stack     at ChildProcess.EventEmitter.emit (events.js:98:17)
+46 verbose stack     at maybeClose (child_process.js:735:16)
+46 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:802:5)
+47 verbose pkgid news-scrapper@0.0.0
+48 verbose cwd /media/ananta/Master/Area51/nodejs/news-scrapper
+49 error Linux 3.13.0-53-generic
+50 error argv "node" "/usr/local/bin/npm" "install"
+51 error node v0.10.24
+52 error npm  v2.9.1
+53 error code ELIFECYCLE
+54 error news-scrapper@0.0.0 prepublish: `gulp prepublish`
+54 error Exit status 8
+55 error Failed at the news-scrapper@0.0.0 prepublish script 'gulp prepublish'.
+55 error This is most likely a problem with the news-scrapper package,
+55 error not with npm itself.
+55 error Tell the author that this fails on your system:
+55 error     gulp prepublish
+55 error You can get their info via:
+55 error     npm owner ls news-scrapper
+55 error There is likely additional logging output above.
+56 verbose exit [ 1, true ]
