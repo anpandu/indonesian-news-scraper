@@ -9,6 +9,7 @@ Websites available:
 + TempoEnglish
 + Antara
 + Viva
++ Okezone
 
 
 ## Install
@@ -70,6 +71,7 @@ var kapanLagi = require('indonesian-news-scrapper').KapanLagi;
 var tempoEnglish = require('indonesian-news-scrapper').TempoEnglish;
 var antara = require('indonesian-news-scrapper').Antara;
 var viva = require('indonesian-news-scrapper').Viva;
+var okezone = require('indonesian-news-scrapper').Okezone;
 ```
 
 ## License

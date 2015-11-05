@@ -34,4 +34,8 @@ describe('indonesian-news-scrapper', function () {
     assert(!_.isUndefined(index.Viva), 'Viva scrapper not found')
   })
 
+  it('should contains Okezone scrapper', function () {
+    assert(!_.isUndefined(index.Okezone), 'Okezone scrapper not found')
+  })
+
 })
