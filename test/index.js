@@ -30,8 +30,8 @@ describe('indonesian-news-scrapper', function () {
     assert(!_.isUndefined(index.Antara), 'Antara scrapper not found')
   })
 
-  it('should contains Viva scrapper', function () {
-    assert(!_.isUndefined(index.Viva), 'Viva scrapper not found')
+  it('should contains Republika scrapper', function () {
+    assert(!_.isUndefined(index.Republika), 'Republika scrapper not found')
   })
 
   it('should contains Okezone scrapper', function () {
