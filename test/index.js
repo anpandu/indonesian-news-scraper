@@ -26,4 +26,12 @@ describe('indonesian-news-scrapper', function () {
     assert(!_.isUndefined(index.KapanLagi), 'KapanLagi scrapper not found')
   })
 
+  it('should contains Antara scrapper', function () {
+    assert(!_.isUndefined(index.Antara), 'Antara scrapper not found')
+  })
+
+  it('should contains Viva scrapper', function () {
+    assert(!_.isUndefined(index.Viva), 'Viva scrapper not found')
+  })
+
 })
