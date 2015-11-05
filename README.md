@@ -1,5 +1,14 @@
 # indonesian-news-scrapper [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> news scrapper
+
+NodeJS module for scrapping Indonesian news site.
+Websites available:
++ Kompas
++ Detik
++ Tempo
++ KapanLagi
++ TempoEnglish
++ Antara
++ Viva
 
 
 ## Install
@@ -59,6 +68,8 @@ var detik = require('indonesian-news-scrapper').Detik;
 var tempo = require('indonesian-news-scrapper').Tempo;
 var kapanLagi = require('indonesian-news-scrapper').KapanLagi;
 var tempoEnglish = require('indonesian-news-scrapper').TempoEnglish;
+var antara = require('indonesian-news-scrapper').Antara;
+var viva = require('indonesian-news-scrapper').Viva;
 ```
 
 ## License
