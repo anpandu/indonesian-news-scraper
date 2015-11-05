@@ -1,20 +1,20 @@
 'use strict'
 
-var Viva = require('../../lib/websites/Viva.js')
+var Republika = require('../../lib/websites/Republika.js')
 var assert = require('assert')
 var Promise = require('bluebird')
 var fs = Promise.promisifyAll(require("fs"))
 
 var getContent = function (filename) { return fs.readFileAsync(filename, "utf8")}
 
-describe('Viva', function () {
+describe('Republika', function () {
 
   it('getURLsFromMainPage()', function () {
     return Promise.resolve()
       .then(function () {
-        return getContent('test/fixtures/websites/viva/viva-mainpage.html')
+        return getContent('test/fixtures/websites/republika/republika-mainpage.html')
       })
-      .then(Viva.getURLsFromMainPage)
+      .then(Republika.getURLsFromMainPage)
       .then(function (result) {
         assert(result[0] == 'http://nasional.republika.co.id/berita/nasional/hukum/15/11/05/nxc181330-sejak-jadi-tersangka-ketua-dprd-sumut-tak-masuk-kerja')
         assert(result[1] == 'http://khazanah.republika.co.id/berita/dunia-islam/islam-nusantara/15/11/05/nxc0yg313-wapres-gelar-pahlawan-suatu-kepantasan')
@@ -25,9 +25,9 @@ describe('Viva', function () {
   it('getDataFromSinglePage()', function () {
     return Promise.resolve()
       .then(function () {
-        return getContent('test/fixtures/websites/viva/viva-singlepage.html')
+        return getContent('test/fixtures/websites/republika/republika-singlepage.html')
       })
-      .then(Viva.getDataFromSinglePage)
+      .then(Republika.getDataFromSinglePage)
       .then(function (result) {
         assert(result.hasOwnProperty('url'))
         assert(result.hasOwnProperty('title'))
@@ -45,7 +45,7 @@ describe('Viva', function () {
   // === this test do I/O
   // it('scrap', function () {
   //   return Promise.resolve()
-  //     .then(Viva.scrap)
+  //     .then(Republika.scrap)
   //     .then(function (result) {
   //       console.log(result)
   //       result.forEach(function (item) {
