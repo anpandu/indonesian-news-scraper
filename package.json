@@ -1,6 +1,6 @@
 {
   "name": "indonesian-news-scrapper",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Indonesian Online News Scrapper",
   "homepage": "pandu.ml",
   "repository": "anpandu/indonesian-news-scrapper",
@@ -21,6 +21,7 @@
     "request-promise": "^1.0.2"
   },
   "devDependencies": {
+    "mocha": "*",
     "gulp": "^3.6.0",
     "gulp-eslint": "^1.0.0",
     "gulp-exclude-gitignore": "^1.0.0",
