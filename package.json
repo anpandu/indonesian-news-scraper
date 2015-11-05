@@ -1,6 +1,6 @@
 {
   "name": "indonesian-news-scrapper",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "Indonesian Online News Scrapper",
   "homepage": "pandu.ml",
   "repository": "anpandu/indonesian-news-scrapper",
@@ -30,7 +30,6 @@
     "gulp-nsp": "^0.4.5"
   },
   "scripts": {
-    "prepublish": "gulp prepublish",
     "test": "mocha --no-timeouts --recursive"
   },
   "license": "MIT"
