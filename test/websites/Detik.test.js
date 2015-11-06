@@ -42,7 +42,7 @@ describe('Detik', function () {
       })
   })
 
-  // // === this test do I/O
+  // === this test do I/O
   // it('scrap', function () {
   //   return Promise.resolve()
   //     .then(Detik.scrap)
