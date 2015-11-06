@@ -34,9 +34,9 @@ kompas.scrap()
 /***
 { url: 'http://megapolitan.kompas.com/read/2015/11/05/13554811/DKI.Akan.Tambah.Dana.Hibah.untuk.Wilayah.yang.Dilintasi.Truk.Sampah',
   title: 'DKI Akan Tambah Dana Hibah untuk Wilayah yang Dilintasi Truk Sampah',
-  date: 'Kamis 5 November 2015  13:55 ',
+  date: '2015-11-05 T10:08:55Z',
   img: 'http://assets.kompas.com/data/photo/2015/05/14/173048120150507-140842780x390.JPG',
-  summary: 'Sekretaris Daerah (Sekda) DKI Saefullah' }
+  content: 'Sekretaris Daerah (Sekda) DKI Saefullah ..... ' }
 ***/
 
 kompas.scrap()
