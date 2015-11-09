@@ -59,4 +59,11 @@ describe('Antara', function () {
   //     })
   // })
 
+  // === this test do I/O
+  // it('getURLs', function () {
+  //   return Promise.resolve()
+  //     .then(Antara.getURLs)
+  //     .then(console.log)
+  // })
+
 })

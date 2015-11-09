@@ -59,4 +59,11 @@ describe('Tempo', function () {
   //     })
   // })
 
+  // === this test do I/O
+  // it('getURLs', function () {
+  //   return Promise.resolve()
+  //     .then(Tempo.getURLs)
+  //     .then(console.log)
+  // })
+
 })

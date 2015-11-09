@@ -48,7 +48,7 @@ describe('KapanLagi', function () {
   //   return Promise.resolve()
   //     .then(KapanLagi.scrap)
   //     .then(function (result) {
-        // console.log(result)
+  //       console.log(result)
   //       result.forEach(function (item) {
   //         assert(item.hasOwnProperty("url"))
   //         assert(item.hasOwnProperty("title"))
@@ -57,6 +57,13 @@ describe('KapanLagi', function () {
   //         assert(item.hasOwnProperty("content"))
   //       })
   //     })
+  // })
+
+  // === this test do I/O
+  // it('getURLs', function () {
+  //   return Promise.resolve()
+  //     .then(KapanLagi.getURLs)
+  //     .then(console.log)
   // })
 
 })

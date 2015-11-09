@@ -59,4 +59,11 @@ describe('TempoEnglish', function () {
   //     })
   // })
 
+  // === this test do I/O
+  // it('getURLs', function () {
+  //   return Promise.resolve()
+  //     .then(TempoEnglish.getURLs)
+  //     .then(console.log)
+  // })
+
 })
