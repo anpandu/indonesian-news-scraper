@@ -21,6 +21,8 @@ $ npm install --save indonesian-news-scrapper
 
 ## Usage
 
+### Scrap
+
 Scrap all news in the website's main page. The number of news scrapped varies according to website.
 
 ```js
@@ -58,6 +60,34 @@ kompas.scrap()
   'Kisruh Sampah DKI, Polisi Minta Pemprov dan Pengelola Lakukan Mediasi',
   'Dipecat, Buruh Bawa Anak Istri Mengadu ke DPRD',
   'Bahas Beberapa Kasus Korupsi, Kabareskrim Temui Pimpinan KPK' ]
+***/
+```
+
+### Get URLs
+
+Get all URLs in the website's main page
+
+```js
+var kompas = require('indonesian-news-scrapper').Kompas;
+
+kompas.getURLs()
+  .then(function (urls) {
+    console.log(urls)
+  })
+
+/***
+[ 'http://megapolitan.kompas.com/read/2015/11/09/12372421/Wakil.Wali.Kota.Bekasi.Izin.Melintas.24.Jam.Truk.Sampah.DKI.Hanya.Sementara',
+  'http://regional.kompas.com/read/2015/11/09/12305981/Terduga.Teroris.yang.Tewas.di.Sulteng.Belum.Teridentifikasi',
+  'http://megapolitan.kompas.com/read/2015/11/09/12103131/Bicarakan.Kisruh.Sampah.Ahok.Akan.Bertemu.Wali.Kota.Bekasi.',
+  'http://nasional.kompas.com/read/2015/11/09/11555121/Masa.Peminjaman.Gedung.BNN.Milik.Polri.Habis.Desember.2015',
+  'http://megapolitan.kompas.com/read/2015/11/09/11543021/Truk.Sampah.DKI.Diizinkan.Melintas.24.Jam.DPRD.Bekasi.Tetap.Ingin.Evaluasi.MoU.',
+  'http://nasional.kompas.com/read/2015/11/09/11434001/Sore.Ini.Presiden.Italia.Akan.Temui.Jokowi.di.Istana.Merdeka',
+  'http://megapolitan.kompas.com/read/2015/11/09/11425941/Kampung.Pulo.Masih.Kebanjiran.Warga.Minta.Ahok.Buat.Gorong-gorong',
+  'http://megapolitan.kompas.com/read/2015/11/09/11395131/Organda.Jangan.Selalu.Salahkan.Sopir.',
+  'http://internasional.kompas.com/read/2015/11/09/11372961/Kerusuhan.Pecah.di.Pusat.Tahanan.Imigrasi.Australia.di.Christmas.Island',
+  'http://nasional.kompas.com/read/2015/11/09/11363951/Fahri.Hamzah.Sebut.Soeharto.Layak.Dapat.Gelar.Pahlawan',
+  'http://nasional.kompas.com/read/2015/11/09/11354671/Kasus.Suap.APBD.KPK.Panggil.9.Anggota.DPRD.Sumut.2009-2014',
+  'http://regional.kompas.com/read/2015/11/09/11294151/Antisipasi.Ancaman.Teroris.Petugas.Keamanan.Khusus.Disiagakan.di.Candi' ]
 ***/
 ```
 
