@@ -59,4 +59,11 @@ describe('Republika', function () {
   //     })
   // })
 
+  // === this test do I/O
+  // it('getURLs', function () {
+  //   return Promise.resolve()
+  //     .then(Republika.getURLs)
+  //     .then(console.log)
+  // })
+
 })

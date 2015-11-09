@@ -59,4 +59,11 @@ describe('Kompas', function () {
   //     })
   // })
 
+  // === this test do I/O
+  // it('getURLs', function () {
+  //   return Promise.resolve()
+  //     .then(Kompas.getURLs)
+  //     .then(console.log)
+  // })
+
 })

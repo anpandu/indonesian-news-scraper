@@ -59,4 +59,11 @@ describe('Detik', function () {
   //     })
   // })
 
+  // === this test do I/O
+  // it('getURLs', function () {
+  //   return Promise.resolve()
+  //     .then(Detik.getURLs)
+  //     .then(console.log)
+  // })
+
 })
