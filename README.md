@@ -1,4 +1,5 @@
-# indonesian-news-scrapper [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# indonesian-news-scrapper
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 NodeJS module for scrapping Indonesian news site.
 Websites available:
@@ -38,7 +39,8 @@ kompas.scrap()
   title: 'DKI Akan Tambah Dana Hibah untuk Wilayah yang Dilintasi Truk Sampah',
   date: '2015-11-05 T10:08:55Z',
   img: 'http://assets.kompas.com/data/photo/2015/05/14/173048120150507-140842780x390.JPG',
-  content: 'Sekretaris Daerah (Sekda) DKI Saefullah ..... ' }
+  content: 'Sekretaris Daerah (Sekda) DKI Saefullah ..... ',
+  source: 'Kompas' }
 ***/
 
 kompas.scrap()
@@ -93,7 +95,7 @@ kompas.getURLs()
 
 ## Available Scrappers
 
-```
+```js
 var kompas = require('indonesian-news-scrapper').Kompas;
 var detik = require('indonesian-news-scrapper').Detik;
 var tempo = require('indonesian-news-scrapper').Tempo;
