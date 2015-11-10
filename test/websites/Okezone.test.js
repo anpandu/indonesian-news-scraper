@@ -40,6 +40,7 @@ describe('Okezone', function () {
         // assert(_.isEqual(result['date'], '2015-11-05T08:56:00.000Z'))
         assert(_.isEqual(result['img'], 'https://img.okezone.com//content/2015/11/05/481/1244264/sering-depresi-berat-hati-hati-diabetes-4iGLnhEgWh.jpg'))
         assert(_.isEqual(result['content'], 'DEPRESI jadi satu momok yang wajib diwaspadai siapa saja. Karena gangguan kesehatan mental berisiko mengidap diabetes. Lantas apa sih kaitannya? Staf Divisi Metabolik Endokrin Fakultas Kedokteran Universitas Indonesia-Rumah Sakit Cipto Mangunkusumo dr Wismandari Wisnu SpPD-KEMD mengungkap, seorang yang mengalami depresi berat akan berisiko mengidap diabetes. Juga hal ini berlaku bagi si pengidap penyakit gula yang sedang menjalani masa terapi. "Depresi adalah suatu kondisi yang memengaruhi hormon serotonin di dalam tubuh kita jadi meningkat," ujar dr Wisman saat Press Conference Jakarta Diabetes Meeting 2015 di Pearl Restaurant Hotel JW Marriot, kawasan Mega Kuningan, Jakarta Selatan, kemarin. Apabila produksi serotonin meningkat, tambah dr Wisman, gula darah di dalam tubuh si pengidap diabetes pun ikut-ikutan naik. Proses ini juga akan mudah terjadi, apabila sepanjang hidupnya tak menjaga pola makan dan olahraga teratur. "Gula darah meningkat secara otomatis, berat badan juga bertambah. Dengan begitu kaitan antara diabetes dan dspresi sangat erat dan memiliki risiko dalam jangka panjang," tukasnya.'))
+        assert(_.isEqual(result['source'], 'Okezone'))
       })
   })
 
