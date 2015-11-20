@@ -1,7 +1,7 @@
-# indonesian-news-scrapper
+# indonesian-news-scraper
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
-NodeJS module for scrapping Indonesian news site.
+NodeJS module for scraping Indonesian news site.
 Websites available:
 + Kompas
 + Detik
@@ -16,7 +16,7 @@ Websites available:
 ## Install
 
 ```sh
-$ npm install --save indonesian-news-scrapper
+$ npm install --save indonesian-news-scraper
 ```
 
 
@@ -24,10 +24,10 @@ $ npm install --save indonesian-news-scrapper
 
 ### Scrap
 
-Scrap all news in the website's main page. The number of news scrapped varies according to website.
+Scrap all news in the website's main page. The number of news scraped varies according to website.
 
 ```js
-var kompas = require('indonesian-news-scrapper').Kompas;
+var kompas = require('indonesian-news-scraper').Kompas;
 
 kompas.scrap()
   .then(function (scraps) {
@@ -70,7 +70,7 @@ kompas.scrap()
 Get all URLs in the website's main page
 
 ```js
-var kompas = require('indonesian-news-scrapper').Kompas;
+var kompas = require('indonesian-news-scraper').Kompas;
 
 kompas.getURLs()
   .then(function (urls) {
@@ -96,14 +96,14 @@ kompas.getURLs()
 ## Available Scrappers
 
 ```js
-var kompas = require('indonesian-news-scrapper').Kompas;
-var detik = require('indonesian-news-scrapper').Detik;
-var tempo = require('indonesian-news-scrapper').Tempo;
-var kapanLagi = require('indonesian-news-scrapper').KapanLagi;
-var tempoEnglish = require('indonesian-news-scrapper').TempoEnglish;
-var antara = require('indonesian-news-scrapper').Antara;
-var republika = require('indonesian-news-scrapper').Republika;
-var okezone = require('indonesian-news-scrapper').Okezone;
+var kompas = require('indonesian-news-scraper').Kompas;
+var detik = require('indonesian-news-scraper').Detik;
+var tempo = require('indonesian-news-scraper').Tempo;
+var kapanLagi = require('indonesian-news-scraper').KapanLagi;
+var tempoEnglish = require('indonesian-news-scraper').TempoEnglish;
+var antara = require('indonesian-news-scraper').Antara;
+var republika = require('indonesian-news-scraper').Republika;
+var okezone = require('indonesian-news-scraper').Okezone;
 ```
 
 ## License
@@ -111,9 +111,9 @@ var okezone = require('indonesian-news-scrapper').Okezone;
 MIT © [Ananta Pandu](pandu.ml)
 
 
-[npm-image]: https://badge.fury.io/js/indonesian-news-scrapper.svg
-[npm-url]: https://npmjs.org/package/indonesian-news-scrapper
-[travis-image]: https://travis-ci.org/anpandu/indonesian-news-scrapper.svg?branch=master
-[travis-url]: https://travis-ci.org/anpandu/indonesian-news-scrapper
-[daviddm-image]: https://david-dm.org/anpandu/indonesian-news-scrapper.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/anpandu/indonesian-news-scrapper
+[npm-image]: https://badge.fury.io/js/indonesian-news-scraper.svg
+[npm-url]: https://npmjs.org/package/indonesian-news-scraper
+[travis-image]: https://travis-ci.org/anpandu/indonesian-news-scraper.svg?branch=master
+[travis-url]: https://travis-ci.org/anpandu/indonesian-news-scraper
+[daviddm-image]: https://david-dm.org/anpandu/indonesian-news-scraper.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/anpandu/indonesian-news-scraper

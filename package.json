@@ -1,9 +1,9 @@
 {
-  "name": "indonesian-news-scrapper",
-  "version": "2.3.0",
+  "name": "indonesian-news-scraper",
+  "version": "2.4.0",
   "description": "Indonesian Online News Scrapper",
   "homepage": "pandu.ml",
-  "repository": "anpandu/indonesian-news-scrapper",
+  "repository": "anpandu/indonesian-news-scraper",
   "author": {
     "name": "Pandu",
     "email": "anpandumail@gmail.com",
