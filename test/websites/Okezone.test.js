@@ -44,7 +44,7 @@ describe('Okezone', function () {
       })
   })
 
-  // === this test do I/O
+  // // === this test do I/O
   // it('scrap', function () {
   //   return Promise.resolve()
   //     .then(Okezone.scrap)
@@ -60,7 +60,7 @@ describe('Okezone', function () {
   //     })
   // })
 
-  // === this test do I/O
+  // // === this test do I/O
   // it('getURLs', function () {
   //   return Promise.resolve()
   //     .then(Okezone.getURLs)
