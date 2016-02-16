@@ -38,4 +38,8 @@ describe('indonesian-news-scrapper', function () {
     assert(!_.isUndefined(index.Okezone), 'Okezone scrapper not found')
   })
 
+  it('should contains Liputan6 scrapper', function () {
+    assert(!_.isUndefined(index.Liputan6), 'Liputan6 scrapper not found')
+  })
+
 })
