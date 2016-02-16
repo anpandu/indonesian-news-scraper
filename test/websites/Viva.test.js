@@ -30,7 +30,6 @@ describe('Viva', function () {
       })
       .then(Viva.getDataFromSinglePage)
       .then(function (result) {
-        console.log(result)
         assert(result.hasOwnProperty('url'))
         assert(result.hasOwnProperty('title'))
         assert(result.hasOwnProperty('date'))
