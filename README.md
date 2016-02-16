@@ -12,6 +12,7 @@ Websites available:
 + Republika
 + Okezone
 + Liputan6
++ Viva
 
 
 ## Install
@@ -106,6 +107,7 @@ var antara = require('indonesian-news-scraper').Antara;
 var republika = require('indonesian-news-scraper').Republika;
 var okezone = require('indonesian-news-scraper').Okezone;
 var liputan6 = require('indonesian-news-scraper').Liputan6;
+var viva = require('indonesian-news-scraper').Viva;
 ```
 
 ## License
