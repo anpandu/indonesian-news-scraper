@@ -11,6 +11,7 @@ Websites available:
 + Antara
 + Republika
 + Okezone
++ Liputan6
 
 
 ## Install
@@ -104,6 +105,7 @@ var tempoEnglish = require('indonesian-news-scraper').TempoEnglish;
 var antara = require('indonesian-news-scraper').Antara;
 var republika = require('indonesian-news-scraper').Republika;
 var okezone = require('indonesian-news-scraper').Okezone;
+var liputan6 = require('indonesian-news-scraper').Liputan6;
 ```
 
 ## License
