@@ -42,4 +42,8 @@ describe('indonesian-news-scrapper', function () {
     assert(!_.isUndefined(index.Liputan6), 'Liputan6 scrapper not found')
   })
 
+  it('should contains Viva scrapper', function () {
+    assert(!_.isUndefined(index.Viva), 'Viva scrapper not found')
+  })
+
 })
