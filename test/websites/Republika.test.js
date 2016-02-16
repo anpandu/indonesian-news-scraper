@@ -35,16 +35,16 @@ describe('Republika', function () {
         assert(result.hasOwnProperty('date'))
         assert(result.hasOwnProperty('img'))
         assert(result.hasOwnProperty('content'))
-        assert(_.isEqual(result['url'], 'http://bola.republika.co.id/berita/sepakbola/liga-inggris/15/11/18/nxzqjd348-city-siap-tawarkan-kontrak-baru-untuk-fernandinho'))
-        assert(_.isEqual(result['title'], 'City Siap Tawarkan Kontrak Baru untuk Fernandinho'))
-        // assert(_.isEqual(result['date'], '2015-11-17T17:00:00.000Z'))
-        assert(_.isEqual(result['img'], 'http://static.republika.co.id/uploads/images/kanal_slide/fernandinho-_140913100056-179.jpg'))
-        assert(_.isEqual(result['content'], 'REPUBLIKA.CO.ID,  MANCHESTER— Sebelum menjadi gelandang Manchester City, Fernandinho adalah pemain Shakhtar Donetsk. City lalu membelinya senilai 30 juta poundsterling untuk diboyong ke Etihad Stadium pada 2013. City bersiap menawarkan kesepakatan baru pada Fernandinho usai tampil brilian musim ini. City akan membuka pembicaraan dengan agen pemain asal Brasil ini meskipun kontraknya baru akan berakhir pada 2017. Menurut laporan Manchester Evening News, Rabu (18/11), musim lalu Fernandinho tampak seperti pemain yang berjuang untuk menemukan kembali bentuknya. Pasalnya, fisiknya terkuras dan memiliki ketegangan emosional karena Piala Dunia Brasil. Musim ini ia telah bangkit lebih baik dari sebelumnya. Rekan satu skuatnya, Fernando disebut ikut andil dalam upaya peningkatan Fernandiho. Ia membantu tugas defensif Fernandinho dan Yaya Toure bebas untuk mengambil alih pertandingan dari lawan. Namun, cedera paha yang dialami oleh Fernando di musim lalu mempengaruhi peformanya dan akhirnya harus membiarkan Fernandinho bekerja sendiri. Tetapi, sekembalinya Fernando dari cedera dan bermain dengan baik, suporter bisa melihat bagaimana Fernandinho bergabung dalam serangan bebas. Ia kemudian mencetak gol saat melawan Sevilla.  '))
+        assert(_.isEqual(result['url'], 'http://nasional.republika.co.id/berita/nasional/daerah/16/02/15/o2l07x284-marcella-zalianty-promo-pariwisata-indonesia-lewat-film'))
+        assert(_.isEqual(result['title'], 'Marcella Zalianty Promo Pariwisata Indonesia Lewat Film'))
+        // assert(_.isEqual(result['date'], '2016-02-14T17:00:00.000Z'))
+        assert(_.isEqual(result['img'], 'http://static.republika.co.id/uploads/images/kanal_slide/marcella-zalianty-_130303012333-841.jpg'))
+        assert(_.isEqual(result['content'], 'REPUBLIKA.CO.ID, JAKARTA -- Aktris dan sutradara Marcella Zalianty mengaku selalu berusaha mempromosikan pesona wisata Indonesia dalam karya-karya filmnya. Cara itu dinilainya cukup kuat dalam mengenalkan lebih dekat potensi Tanah Air ke khalayak dunia.  "Ada film saya yang tampil di Cannes Festival, dan mereka kaget melihat Indonesia yang modern karena mereka menganggap Indonesia sangat purba," kata Marcella seperti dikutip Antaranews, Senin (15/2).Menurut istri pebalap Ananda Mikola itu, film merupakan bagian dari industri kreatif yang punya posisi strategis dalam mempromosikan pariwisata Indonesia.Ia mencontohkan salah satu film "The Beach" yang dibintangi Leonardo di Caprio telah sukses membuat pariwisata Thailand, lokasi syuting film tersebut, melejit."Film ini sektor yang \'powerful\' (kuat) untuk promosi wisata," kata Marcella yang mengaku tengah menggarap film berlatar Pantai Santolo, Jawa Barat.'))
         assert(_.isEqual(result['source'], 'Republika'))
       })
   })
 
-  // === this test do I/O
+  // // === this test do I/O
   // it('scrap', function () {
   //   return Promise.resolve()
   //     .then(Republika.scrap)
@@ -60,7 +60,7 @@ describe('Republika', function () {
   //     })
   // })
 
-  // === this test do I/O
+  // // === this test do I/O
   // it('getURLs', function () {
   //   return Promise.resolve()
   //     .then(Republika.getURLs)
