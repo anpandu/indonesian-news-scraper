@@ -17,9 +17,9 @@ describe('Kompas', function () {
       })
       .then(Kompas.getURLsFromMainPage)
       .then(function (result) {
-        assert(_.isEqual(result[0], 'http://regional.kompas.com/read/2015/11/04/21040031/Polres.Lhokseumawe.Serahkan.Anggota.Di.Minimi.ke.Kejaksaan'))
-        assert(_.isEqual(result[1], 'http://regional.kompas.com/read/2015/11/04/20571381/Balutan.Galeri.Seni.di.Terminal.Baru.Bandara.Husein.Sastranegara'))
-        assert(_.isEqual(result[2], 'http://regional.kompas.com/read/2015/11/04/20510051/16.Orang.Tahanan.di.Polres.Kutai.Timur.Kabur'))
+        assert(_.isEqual(result[0], 'http://bisniskeuangan.kompas.com/read/xml/2016/02/23/145448826/OJK.Pelemahan.Saham.Perbankan.Hanya.Temporer'))
+        assert(_.isEqual(result[1], 'http://megapolitan.kompas.com/read/xml/2016/02/23/14514861/.Saya.Kayak.Anak.Tiri.Enggak.Punya.Pak.Lurah.dan.Pak.RT.'))
+        assert(_.isEqual(result[2], 'http://regional.kompas.com/read/xml/2016/02/23/14505601/Pilkada.Kalteng.Diundur.Kandidat.yang.Kalah.Menggugat'))
       })
   })
 
