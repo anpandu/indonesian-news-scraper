@@ -59,6 +59,23 @@ describe('KapanLagi', function () {
         assert(_.isEqual(result['content'], 'Pesona kecantikan yang dimiliki Dian Sastrowardoyo memang sudah tak diragukan lagi. Tak hanya dianugerahi dengan wajah sempurna, bintang ADA APA DENGAN CINTA? ini juga punya bakat akting yang mampu menghipnotis setiap fansnya. Selalu dipuja pria dan wanita, tahukah kamu jika ternyata Dian di masa lalu adalah gadis yang sangat berbeda? Pemandangan itulah yang bisa terlihat jelas dalam postingan foto terbaru Dian di Instagram . Yup, aktris cantik asal Jakarta ini baru saja memperlihatkan seperti apa foto masa kecilnya saat masih berusia 13 tahun. Di sanalah kamu bisa melihat bagaimana gadis mungil yang masih sangat polos dan jauh dari penampilannya yang sekarang. Mengenakan seragam sekolahnya, Dian tampak seperti pelajar biasa. Ia bahkan menghiasi wajah mungilnya dengan kacamata. Sosoknya tentu sangat berbeda jika dibandingkan dengan seorang Dian Sastro di usianya yang kini telah menginjak 33 tahun. Bersamaan dengan diunggahnya foto ini, Dian pun menuliskan caption yang berbunyi, "Inilah aku saat masih berusia 13 tahun. Sekian. Makasih untuk teman-teman yang sudah mengenalku sejak aku masih bukan siapa-siapa. Makasih untuk persahabatan sejati kalian selama ini. Kangen rapat APEC (versi lain dari \'sidang buku curhat\' di hidupku)." Tak pelak lagi, hal ini langsung sukses mencuri perhatian para follower -nya di Instagram . Tak ada yang menyangka jika gadis polos yang dulunya bukan siapa-siapa itu telah menjadi salah satu wanita tercantik dan berbakat di tanah air. (kpl/sry)'))
         assert(_.isEqual(result['source'], 'KapanLagi'))
       })
+      .then(function () {
+        return getContent('test/fixtures/websites/kapanlagi/kapanlagi-singlepage3.html')
+      })
+      .then(KapanLagi.getDataFromSinglePage)
+      .then(function (result) {
+        assert(result.hasOwnProperty('url'))
+        assert(result.hasOwnProperty('title'))
+        assert(result.hasOwnProperty('date'))
+        assert(result.hasOwnProperty('img'))
+        assert(result.hasOwnProperty('content'))
+        assert(_.isEqual(result['url'], 'http://musik.kapanlagi.com/berita/bikin-gaduh-kota-rumah-penyanyi-ini-digrebek-polisi-c1994d.html'))
+        assert(_.isEqual(result['title'], 'Bikin Gaduh Kota, Rumah Penyanyi Ini Digrebek Polisi'))
+        // assert(_.isEqual(result['date'], '2016-02-23T04:22:00.000Z'))
+        assert(_.isEqual(result['img'], 'http://cdn.klimg.com/kapanlagi.com/p/headline/476x238/bikin-gaduh-kota-rumah-penyanyi-ini-dig-c1994d.jpg'))
+        assert(_.isEqual(result['content'], 'Apa yang kalian pikirkan tentang pesta? Tentu saja hal yang menggembirakan dan menyengangkan semua. Namun, sadarkah kalian terkadang apa yang kita lakukan tersebut bisa mengganggu orang lain? Satu kisah datang dari penyanyi asal Wales, Charlotte Chruch. Polisi lokal dikomplain banyak warga karena suara yang ditimbulkan dari rumah Charlotte. Mencengangkannya lagi, suara itu bisa didengar hingga jarak 5 kilometer jauhnya. Lebih dari 100 tamu diundang ke dalam rumah mewah penyanyi tersebut yang seharga Rp 28,8 miliar tersebut. Para tamu diundang untuk memeriahkan acara ulang tahunnya yang ke 30. Pihak Kepolisian Wales Selatan mengatakan bahwa tak ada penangkapan dalam pengamanan yang dilakukan mereka. Namun, penyani tersebut harus menangungg malu karena namanya menjadi miring di dunia maya. Salah satu tetangganya mengatakan, "Kami melihat sebuah tenda besar akan didiriakan, jadi kami berasumsi bahwa akan ada pesta yang dihelat. Tapi juga tak menyangkan pestanya akan berakhir pada pukul setengah 6 pagi. Itu benar-benar mengerikan." Tetangga lain yang bernama Dewi Jones mengatakan bahwa seharusnya tinggal di pedesaan harus bisa menghargai masyarakat yang tinggal di sana. "Jika anda tinggal di desa, tentunya anda harus menghargai para tetangga." Satu komplain pun datang dari Helen Bond, wanita yang cukup jauh tinggal dari kediaman Charlotte. "Ini sebuah mimpi buruk. Aku kira keributan ini terjadi di tetanggaku namun aku sadar bahwa suara itu datang dari rumah yang nun jauh di sana." Mengadakan party sih oke-oke aja ya? Tapi selama masih ada aturan tertulis maupun tidak di masyarakat, kita seharusnya menghargai hal tersebut. Respect is a must , KLovers. If you wanna some respect anyway . (kpl/otx)'))
+        assert(_.isEqual(result['source'], 'KapanLagi'))
+      })
   })
 
   // // === this test do I/O
