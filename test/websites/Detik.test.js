@@ -42,6 +42,23 @@ describe('Detik', function () {
         assert(_.isEqual(result['content'], 'Jakarta - Galaxy S6 Edge, dengan material premium dan layar lengkung inovatif di kedua sisinya, adalah smartphone jagoan Samsung. Tapi menurut Google, S6 Edge tidak luput dari kelemahan, khususnya di sisi sekuriti. Dikutip detikINET dari BBC, Kamis (5/11/2015), Google menyatakan jika Galaxy S6 Edge memiliki 11 celah keamanan. Google melalui tim Project Zero mengujicoba tingkat keamanan S6 Edge karena diniliai banyak orang yang memilikinya. Beberapa celah keamanan itu memungkinkan hacker mengambil alih perangkat dan mencuri data pribadi. Google sudah memberitahu Samsung mengenai celah keamanan itu dan sebagian besar sudah diperbaiki. Namun ada beberapa yang belum. "Mayoritas masalah sudah diperbaiki dalam update over the air , meskipun masih ada tiga masalah keamanan kecil yang belum," demikian pernyataan tim Project Zero. Samsung menyatakan bahwa tiga celah keamanan yang masih ada akan diperbaiki dalam update sekuriti yang rencananya dilakukan bulan ini. "Menjaga kepercayaan konsumen adalah prioritas top kami," kata Samsung. Samsung menyarankan agar pengguna selalu update software jika telah tersedia. "Samsung mengharapkan user untuk selalu menjaga agar software dan aplikasi mereka selalu update ," tambah raksasa elektronik asal Korea Selatan ini. (fyk/ash)'))
         assert(_.isEqual(result['source'], 'Detik'))
       })
+      .then(function () {
+        return getContent('test/fixtures/websites/detik/detik-singlepage2.html')
+      })
+      .then(Detik.getDataFromSinglePage)
+      .then(function (result) {
+        assert(result.hasOwnProperty('url'))
+        assert(result.hasOwnProperty('title'))
+        assert(result.hasOwnProperty('date'))
+        assert(result.hasOwnProperty('img'))
+        assert(result.hasOwnProperty('content'))
+        assert(_.isEqual(result['url'], 'http://finance.detik.com/readfoto/2016/02/23/153201/3149106/461/1/gardu-induk-milenium-pln-resmi-beroperasi'))
+        assert(_.isEqual(result['title'], 'Gardu Induk Milenium PLN Resmi Beroperasi'))
+        // assert(_.isEqual(result['date'], '2016-02-23 T16:00:20Z'))
+        assert(_.isEqual(result['img'], 'http://images.detik.com/visual/2016/02/23/7b95d482-98da-40da-a556-2f3ec6721648.jpg?w=650'))
+        assert(_.isEqual(result['content'], 'PT PLN hari ini resmi mengoperasikan Gardu Induk (GI) 150 kV Milenium 2x60 MVA beserta jaringannya. GI Milenium merupakan bagian dari GITET Balaraja.'))
+        assert(_.isEqual(result['source'], 'Detik'))
+      })
   })
 
   // // === this test do I/O
