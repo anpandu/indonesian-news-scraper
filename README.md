@@ -112,7 +112,7 @@ var viva = require('indonesian-news-scraper').Viva;
 
 ## License
 
-MIT © [Ananta Pandu](pandu.ml)
+MIT © [Ananta Pandu](anpandu.com)
 
 
 [npm-image]: https://badge.fury.io/js/indonesian-news-scraper.svg
