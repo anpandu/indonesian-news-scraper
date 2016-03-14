@@ -1,19 +1,24 @@
 {
   "name": "indonesian-news-scraper",
-  "version": "2.7.7",
-  "description": "Indonesian Online News Scrapper",
-  "homepage": "pandu.ml",
+  "version": "2.7.8",
+  "description": "Indonesian online news scraper for NodeJS",
+  "homepage": "anpandu.com",
   "repository": "anpandu/indonesian-news-scraper",
   "author": {
     "name": "Pandu",
     "email": "anpandumail@gmail.com",
-    "url": "pandu.ml"
+    "url": "anpandu.com"
   },
   "files": [
     "lib"
   ],
   "main": "lib/index.js",
-  "keywords": [],
+  "keywords": [
+    "scraper",
+    "crawler",
+    "news",
+    "indonesia"
+  ],
   "dependencies": {
     "bluebird": "^3.0.5",
     "cheerio": "^0.20.0",
