@@ -21,10 +21,10 @@
   ],
   "dependencies": {
     "bluebird": "^3.0.5",
-    "cheerio": "^0.20.0",
+    "cheerio": "^0.22.0",
     "lodash": "^4.3.0",
     "moment": "^2.11.2",
-    "request-promise": "^2.0.0"
+    "request-promise": "^4.1.1"
   },
   "devDependencies": {
     "mocha": "2.3.3"
