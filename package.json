@@ -1,6 +1,6 @@
 {
   "name": "indonesian-news-scraper",
-  "version": "2.7.9",
+  "version": "2.7.10",
   "description": "Indonesian online news scraper for NodeJS",
   "homepage": "anpandu.com",
   "repository": "anpandu/indonesian-news-scraper",
@@ -24,6 +24,7 @@
     "cheerio": "^0.22.0",
     "lodash": "^4.3.0",
     "moment": "^2.11.2",
+    "request": "^2.79.0",
     "request-promise": "^4.1.1"
   },
   "devDependencies": {
