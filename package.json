@@ -1,6 +1,6 @@
 {
   "name": "indonesian-news-scraper",
-  "version": "2.8.3",
+  "version": "2.9.0",
   "description": "Indonesian online news scraper for NodeJS",
   "homepage": "anpandu.com",
   "repository": "anpandu/indonesian-news-scraper",
